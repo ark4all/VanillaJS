@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    transition: 1.5s;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    width: 30rem;
+    /* height: auto; */
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px 25px rgb(10, 10, 10), 5px 5px 15px rgb(255, 255, 255);
+}
+button{
+    padding: 1rem 9.5rem;
+    margin: .25rem .25rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
